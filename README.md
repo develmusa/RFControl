@@ -1,7 +1,8 @@
-RFControl
+RFControl for esp8266
 ==========
 
-Arduino library for 433mhz RF sniffing and receiving.
+Arduino(esp8266) library for 433mhz RF sniffing and receiving.
+
 
 ```c++
 #include <RFControl.h>

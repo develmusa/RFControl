@@ -33,7 +33,7 @@ bool data1_ready = false;
 bool data2_ready = false;
 bool skip = false;
 bool new_duration = false;
-void handleInterrupt();
+void ICACHE_RAM_ATTR handleInterrupt();
 
 unsigned int RFControl::getPulseLengthDivider() {
   return PULSE_LENGTH_DIVIDER;
